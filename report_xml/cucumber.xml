@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="136.617341">
+    <testcase classname="User story creation with valid details" name="To generate ID of User Story" time="136.617341">
+        <system-out><![CDATA[Given user is on landing page...............................................passed
+Then Finding the project title..............................................passed
+Then Find the execute menu in project page..................................passed
+Then click Add the user story...............................................passed
+Then enter description......................................................passed
+Then enter story name.......................................................passed
+Then enter due date.........................................................passed
+Then select card owner name.................................................passed
+Then select user story type.................................................passed
+Then enter story points.....................................................passed
+Then select resource group..................................................passed
+Then select theme...........................................................passed
+Then enter rank.............................................................passed
+Then select priority........................................................passed
+Then save user story........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

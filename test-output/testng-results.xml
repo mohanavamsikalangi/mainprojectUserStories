@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="16" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-12T03:16:39 IST" name="Testing the MainSpring App User Stories" finished-at="2021-08-12T03:20:14 IST" duration-ms="215210">
+    <groups>
+    </groups>
+    <test started-at="2021-08-12T03:16:39 IST" name="Test" finished-at="2021-08-12T03:20:14 IST" duration-ms="215210">
+      <class name="com.selenium.mainproject.testClasses.ModuleTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.selenium.mainproject.testClasses.ModuleTest@471a9022]" started-at="2021-08-12T03:16:39 IST" name="beforeTest" finished-at="2021-08-12T03:18:01 IST" duration-ms="81641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="onlyNamefield(java.util.Hashtable)[pri:1, instance:com.selenium.mainproject.testClasses.ModuleTest@471a9022]" started-at="2021-08-12T03:18:02 IST" name="onlyNamefield" data-provider="userStoryData" finished-at="2021-08-12T03:19:02 IST" duration-ms="59790" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Story Name=Team, Due Time="12-Aug-2021", Description=Team project, Card Owner Name=Shreya Dehankar (918996)}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : Value is not set for the below field(s). Please enter the values and save:
+•  Due Date in Details tab 
+•  Card Owner in Details tab}
+  (Session info: chrome=92.0.4515.131): Value is not set for the below field(s). Please enter the values and save:
+•  Due Date in Details tab 
+•  Card Owner in Details tab
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-S8DN252', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\SR_USE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60964}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fe5bda454509b7c282090a4a5e51dc5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Value is not set for the below field(s). Please enter the values and save:
+•  Due Date in Details tab 
+•  Card Owner in Details tab}
+  (Session info: chrome=92.0.4515.131): Value is not set for the below field(s). Please enter the values and save:
+•  Due Date in Details tab 
+•  Card Owner in Details tab
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-S8DN252', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\SR_USE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60964}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fe5bda454509b7c282090a4a5e51dc5
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+at com.selenium.mainproject.pageClasses.UserStoriesPage.scrollUpWebPage(UserStoriesPage.java:189)
+at com.selenium.mainproject.pageClasses.UserStoriesPage.clickSaveBtn(UserStoriesPage.java:145)
+at com.selenium.mainproject.testClasses.ModuleTest.onlyNamefield(ModuleTest.java:140)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onlyNamefield -->
+        <test-method signature="testModule(java.util.Hashtable)[pri:3, instance:com.selenium.mainproject.testClasses.ModuleTest@471a9022]" started-at="2021-08-12T03:19:02 IST" name="testModule" data-provider="userStoryData" finished-at="2021-08-12T03:19:14 IST" duration-ms="12499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Story Name=Team, Due Time="12-Aug-2021", Description=Team project, Card Owner Name=Shreya Dehankar (918996)}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testModule -->
+        <test-method signature="testDescription(java.util.Hashtable)[pri:4, instance:com.selenium.mainproject.testClasses.ModuleTest@471a9022]" started-at="2021-08-12T03:19:14 IST" name="testDescription" data-provider="userStoryData" finished-at="2021-08-12T03:19:16 IST" duration-ms="1670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Story Name=Team, Due Time="12-Aug-2021", Description=Team project, Card Owner Name=Shreya Dehankar (918996)}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDescription -->
+        <test-method signature="testAcceptance()[pri:5, instance:com.selenium.mainproject.testClasses.ModuleTest@471a9022]" started-at="2021-08-12T03:19:16 IST" name="testAcceptance" finished-at="2021-08-12T03:19:26 IST" duration-ms="9712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAcceptance -->
+        <test-method signature="testUserType()[pri:6, instance:com.selenium.mainproject.testClasses.ModuleTest@471a9022]" started-at="2021-08-12T03:19:26 IST" name="testUserType" finished-at="2021-08-12T03:19:28 IST" duration-ms="1849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserType -->
+        <test-method signature="testStoryPoints()[pri:7, instance:com.selenium.mainproject.testClasses.ModuleTest@471a9022]" started-at="2021-08-12T03:19:28 IST" name="testStoryPoints" finished-at="2021-08-12T03:19:37 IST" duration-ms="9524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStoryPoints -->
+        <test-method signature="testResourceGroup()[pri:8, instance:com.selenium.mainproject.testClasses.ModuleTest@471a9022]" started-at="2021-08-12T03:19:37 IST" name="testResourceGroup" finished-at="2021-08-12T03:19:38 IST" duration-ms="1296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResourceGroup -->
+        <test-method signature="testTheme()[pri:9, instance:com.selenium.mainproject.testClasses.ModuleTest@471a9022]" started-at="2021-08-12T03:19:38 IST" name="testTheme" finished-at="2021-08-12T03:19:49 IST" duration-ms="10295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTheme -->
+        <test-method signature="testRank()[pri:10, instance:com.selenium.mainproject.testClasses.ModuleTest@471a9022]" started-at="2021-08-12T03:19:49 IST" name="testRank" finished-at="2021-08-12T03:19:50 IST" duration-ms="1674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRank -->
+        <test-method signature="testPriority()[pri:11, instance:com.selenium.mainproject.testClasses.ModuleTest@471a9022]" started-at="2021-08-12T03:19:50 IST" name="testPriority" finished-at="2021-08-12T03:20:00 IST" duration-ms="9913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPriority -->
+        <test-method signature="testEndDate()[pri:12, instance:com.selenium.mainproject.testClasses.ModuleTest@471a9022]" started-at="2021-08-12T03:20:00 IST" name="testEndDate" finished-at="2021-08-12T03:20:09 IST" duration-ms="8276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEndDate -->
+        <test-method signature="verifyPriority(java.util.Hashtable)[pri:16, instance:com.selenium.mainproject.testClasses.ModuleTest@471a9022]" started-at="2021-08-12T03:20:09 IST" name="verifyPriority" data-provider="priorityDD" finished-at="2021-08-12T03:20:09 IST" duration-ms="214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Option2=Critical, Option1=--None--, Option5=Low, Option4=Medium, Option3=High}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPriority -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.selenium.mainproject.testClasses.ModuleTest@471a9022]" started-at="2021-08-12T03:20:09 IST" name="afterTest" finished-at="2021-08-12T03:20:14 IST" duration-ms="5194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.selenium.mainproject.testClasses.ModuleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Testing the MainSpring App User Stories -->
+</testng-results>

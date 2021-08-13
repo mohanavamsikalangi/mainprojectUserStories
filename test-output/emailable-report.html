@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Testing the MainSpring App User Stories</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">215,210</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Testing the MainSpring App User Stories</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.selenium.mainproject.testClasses.ModuleTest</td><td><a href="#m0">onlyNamefield</a></td><td rowspan="1">1628718482406</td><td rowspan="1">59790</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="11">com.selenium.mainproject.testClasses.ModuleTest</td><td><a href="#m1">testAcceptance</a></td><td rowspan="1">1628718556584</td><td rowspan="1">9712</td></tr><tr class="passedeven"><td><a href="#m2">testDescription</a></td><td rowspan="1">1628718554912</td><td rowspan="1">1670</td></tr><tr class="passedeven"><td><a href="#m3">testEndDate</a></td><td rowspan="1">1628718600862</td><td rowspan="1">8276</td></tr><tr class="passedeven"><td><a href="#m4">testModule</a></td><td rowspan="1">1628718542339</td><td rowspan="1">12499</td></tr><tr class="passedeven"><td><a href="#m5">testPriority</a></td><td rowspan="1">1628718590947</td><td rowspan="1">9913</td></tr><tr class="passedeven"><td><a href="#m6">testRank</a></td><td rowspan="1">1628718589271</td><td rowspan="1">1674</td></tr><tr class="passedeven"><td><a href="#m7">testResourceGroup</a></td><td rowspan="1">1628718577676</td><td rowspan="1">1296</td></tr><tr class="passedeven"><td><a href="#m8">testStoryPoints</a></td><td rowspan="1">1628718568149</td><td rowspan="1">9524</td></tr><tr class="passedeven"><td><a href="#m9">testTheme</a></td><td rowspan="1">1628718578974</td><td rowspan="1">10295</td></tr><tr class="passedeven"><td><a href="#m10">testUserType</a></td><td rowspan="1">1628718566299</td><td rowspan="1">1849</td></tr><tr class="passedeven"><td><a href="#m11">verifyPriority</a></td><td rowspan="1">1628718609238</td><td rowspan="1">214</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.selenium.mainproject.testClasses.ModuleTest#onlyNamefield</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Story Name=Team, Due Time=&quot;12-Aug-2021&quot;, Description=Team project, Card Owner Name=Shreya Dehankar (918996)}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Value is not set for the below field(s). Please enter the values and save:
+•  Due Date in Details tab 
+•  Card Owner in Details tab}
+  (Session info: chrome=92.0.4515.131): Value is not set for the below field(s). Please enter the values and save:
+•  Due Date in Details tab 
+•  Card Owner in Details tab
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-S8DN252&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\SR_USE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60964}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fe5bda454509b7c282090a4a5e51dc5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at com.selenium.mainproject.pageClasses.UserStoriesPage.scrollUpWebPage(UserStoriesPage.java:189)
+	at com.selenium.mainproject.pageClasses.UserStoriesPage.clickSaveBtn(UserStoriesPage.java:145)
+	at com.selenium.mainproject.testClasses.ModuleTest.onlyNamefield(ModuleTest.java:140)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.selenium.mainproject.testClasses.ModuleTest#testAcceptance</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.selenium.mainproject.testClasses.ModuleTest#testDescription</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Story Name=Team, Due Time=&quot;12-Aug-2021&quot;, Description=Team project, Card Owner Name=Shreya Dehankar (918996)}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.selenium.mainproject.testClasses.ModuleTest#testEndDate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.selenium.mainproject.testClasses.ModuleTest#testModule</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Story Name=Team, Due Time=&quot;12-Aug-2021&quot;, Description=Team project, Card Owner Name=Shreya Dehankar (918996)}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.selenium.mainproject.testClasses.ModuleTest#testPriority</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.selenium.mainproject.testClasses.ModuleTest#testRank</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.selenium.mainproject.testClasses.ModuleTest#testResourceGroup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.selenium.mainproject.testClasses.ModuleTest#testStoryPoints</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.selenium.mainproject.testClasses.ModuleTest#testTheme</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.selenium.mainproject.testClasses.ModuleTest#testUserType</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.selenium.mainproject.testClasses.ModuleTest#verifyPriority</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Option2=Critical, Option1=--None--, Option5=Low, Option4=Medium, Option3=High}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
